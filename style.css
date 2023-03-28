@@ -1,0 +1,908 @@
+body {
+  margin: 0;
+  /* H1 */
+  /* BUTTON STYLE */
+  /*MAIN*/
+  /*Fin Main*/
+  /*Footer*/
+  /*Fin Section footer*/
+}
+body header {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  flex-direction: column;
+  align-items: center;
+  /* Style the navigation menu */
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  /* Style navigation menu links */
+  /* Style the hamburger menu */
+  /* Style the active link (or home/logo) */
+}
+@media (max-width: 375px) {
+  body header {
+    flex-direction: column;
+    height: auto;
+    width: 85%;
+    margin: auto;
+  }
+}
+@media (max-width: 992px) {
+  body header {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: auto;
+  }
+}
+body header .topnav {
+  overflow: hidden;
+  position: relative;
+  width: 75%;
+  margin: auto;
+}
+@media (max-width: 375px) {
+  body header .topnav {
+    flex-direction: column;
+    height: auto;
+    width: 85%;
+    margin: auto;
+  }
+}
+@media (max-width: 992px) {
+  body header .topnav {
+    height: auto;
+    width: 90%;
+    margin: auto;
+  }
+}
+body header .topnav #mylinks {
+  display: none;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 50%;
+  justify-content: center;
+}
+body header .topnav a {
+  color: white;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+body header .topnav a.icon {
+  background: #FFDA00;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+body header .active {
+  color: white;
+}
+body h1 {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  color: #FFDA00;
+  text-transform: uppercase;
+  font-family: "Abel", sans-serif;
+  font-size: 8em;
+  font-weight: 100;
+}
+@media (max-width: 375px) {
+  body h1 {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    font-size: 7em;
+  }
+}
+@media (max-width: 992px) {
+  body h1 {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    font-size: 7em;
+  }
+}
+body p {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 4%;
+  text-align: left;
+  color: white;
+  font-family: "Abel", sans-serif;
+}
+@media (max-width: 375px) {
+  body p {
+    flex-direction: column;
+    height: auto;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 8%;
+  }
+}
+@media (max-width: 992px) {
+  body p {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    font-size: 1.5em;
+    padding-bottom: 4%;
+    padding-top: 4%;
+  }
+}
+body #buttonstyle {
+  width: 10%;
+  background-color: black;
+  color: white;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border-color: #FFDA00;
+  padding: 1%;
+  border-style: solid;
+}
+@media (max-width: 375px) {
+  body #buttonstyle {
+    height: auto;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 1em;
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  body #buttonstyle {
+    height: auto;
+    width: 20%;
+    margin: auto;
+    font-size: 1.2em;
+    justify-content: center;
+  }
+}
+@media (min-width: 375px) and (max-width: 992px) {
+  body #buttonstyle {
+    width: 40%;
+  }
+}
+body main {
+  /*SECTION JAUNE SMALL*/
+  /*SECTION SERVICES*/
+  /*SECTION STATS*/
+  /*FIN Section stats*/
+  /*Section portfolio*/
+  /*Section Our clients*/
+  /*Fin section Our clients*/
+  /*Section contact us*/
+  /*Fin section contact us*/
+  /*Section Jaune*/
+  /*Fin Section jaune*/
+}
+body main #jaunesmall {
+  background-color: #FFDA00;
+  display: flex;
+}
+@media (max-width: 375px) {
+  body main #jaunesmall {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+}
+@media (max-width: 992px) {
+  body main #jaunesmall {
+    height: auto;
+    align-items: center;
+    font-size: 1.5em;
+  }
+}
+body main #jaunesmall p {
+  width: 90%;
+  color: black;
+  font-family: "Abel", sans-serif;
+  font-size: 1em;
+  margin: auto;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+body main #services {
+  width: 100%;
+  /*button LAUNCH PROJECT NOW*/
+}
+body main #services #containerarticles {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding-top: 5%;
+  justify-content: center;
+  /*sous section design*/
+  /*sous section coding*/
+  /*sous section apps*/
+}
+@media (max-width: 375px) {
+  body main #services #containerarticles {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+}
+body main #services #containerarticles #design {
+  width: 70%;
+  text-align: center;
+}
+body main #services #containerarticles #design h2 {
+  font-family: "Abel", sans-serif;
+  font-size: 2em;
+  color: #FFDA00;
+  text-transform: uppercase;
+}
+body main #services #containerarticles #design p {
+  font-family: "Abel", sans-serif;
+  color: black;
+  text-align: center;
+}
+body main #services #containerarticles #design img {
+  width: 20%;
+  height: auto;
+}
+body main #services #containerarticles #coding {
+  width: 70%;
+  text-align: center;
+}
+body main #services #containerarticles #coding h2 {
+  font-family: "Abel", sans-serif;
+  font-size: 2em;
+  color: #FFDA00;
+  text-transform: uppercase;
+}
+body main #services #containerarticles #coding p {
+  font-family: "Abel", sans-serif;
+  color: black;
+  text-align: center;
+}
+body main #services #containerarticles #coding img {
+  width: 20%;
+  height: auto;
+}
+body main #services #containerarticles #apps {
+  width: 70%;
+  text-align: center;
+}
+body main #services #containerarticles #apps h2 {
+  font-family: "Abel", sans-serif;
+  font-size: 2em;
+  color: #FFDA00;
+  text-transform: uppercase;
+}
+body main #services #containerarticles #apps p {
+  font-family: "Abel", sans-serif;
+  color: black;
+  text-align: center;
+}
+body main #services #containerarticles #apps img {
+  width: 20%;
+  height: auto;
+}
+body main #services #buttonservicescontainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8%;
+  padding-top: 4%;
+}
+body main #services #buttonservicescontainer #buttonservices {
+  background-color: white;
+  color: black;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border-color: #FFDA00;
+  padding: 1%;
+  border-style: solid;
+}
+@media (max-width: 992px) {
+  body main #services #buttonservicescontainer #buttonservices {
+    font-size: 1.2em;
+    height: auto;
+    align-items: center;
+  }
+}
+body main #stats {
+  background-color: black;
+  width: 100%;
+  /*Sous section stats container*/
+}
+body main #stats #containerstats {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+@media (max-width: 375px) {
+  body main #stats #containerstats {
+    flex-direction: column;
+    height: auto;
+  }
+}
+body main #stats #containerstats #projects {
+  width: 90%;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 8%;
+}
+body main #stats #containerstats #projects img {
+  width: 20%;
+  height: 20%;
+}
+body main #stats #containerstats #projects h2 {
+  color: white;
+  font-size: 2em;
+}
+body main #stats #containerstats #projects h3 {
+  color: #FFDA00;
+  font-size: 1em;
+}
+body main #stats #containerstats #coffee {
+  width: 90%;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 8%;
+}
+body main #stats #containerstats #coffee img {
+  width: 20%;
+  height: 20%;
+}
+body main #stats #containerstats #coffee h2 {
+  color: white;
+  font-size: 2em;
+}
+body main #stats #containerstats #coffee h3 {
+  color: #FFDA00;
+  font-size: 1em;
+}
+body main #stats #containerstats #mails {
+  width: 90%;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 8%;
+}
+body main #stats #containerstats #mails img {
+  width: 20%;
+  height: 20%;
+}
+body main #stats #containerstats #mails h2 {
+  color: white;
+  font-size: 2em;
+}
+body main #stats #containerstats #mails h3 {
+  color: #FFDA00;
+  font-size: 1em;
+}
+body main #stats #containerstats #awards {
+  width: 90%;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 8%;
+}
+body main #stats #containerstats #awards img {
+  width: 20%;
+  height: 20%;
+}
+body main #stats #containerstats #awards h2 {
+  color: white;
+  font-size: 2em;
+}
+body main #stats #containerstats #awards h3 {
+  color: #FFDA00;
+  font-size: 1em;
+}
+body main #portfolio #bandeaublanc {
+  margin: auto;
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 5%;
+}
+@media (max-width: 375px) {
+  body main #portfolio #bandeaublanc {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  body main #portfolio #bandeaublanc {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    font-size: 1.5em;
+  }
+}
+body main #portfolio #bandeaublanc h2 {
+  width: 95%;
+  font-family: "Abel", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #FFDA00;
+  margin: auto;
+  padding-bottom: 4%;
+}
+@media (max-width: 375px) {
+  body main #portfolio #bandeaublanc h2 {
+    font-size: 1.5em;
+  }
+}
+body main #portfolio #bandeaublanc p {
+  width: 95%;
+  color: black;
+  font-family: "Abel", sans-serif;
+  font-size: 1em;
+  margin: auto;
+  padding-bottom: 4%;
+}
+body main #portfolio #photos {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  body main #portfolio #photos img {
+    width: 20%;
+    height: 100%;
+  }
+}
+@media (max-width: 375px) {
+  body main #portfolio #photos {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  body main #portfolio #photos {
+    height: auto;
+    width: 100%;
+  }
+}
+body main #ourclients {
+  background-color: black;
+  /*Sous section container our clients*/
+}
+body main #ourclients #titretexte {
+  margin: auto;
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  padding-top: 5%;
+}
+@media (max-width: 375px) {
+  body main #ourclients #titretexte {
+    flex-direction: column;
+    height: auto;
+    width: 95%;
+  }
+}
+@media (max-width: 992px) {
+  body main #ourclients #titretexte {
+    height: auto;
+    width: 90%;
+    margin: auto;
+  }
+}
+body main #ourclients #titretexte h2 {
+  width: 90%;
+  font-family: "Abel", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #FFDA00;
+}
+body main #ourclients #titretexte p {
+  width: 100%;
+  color: white;
+  font-family: "Abel", sans-serif;
+  font-size: 1em;
+  padding-bottom: 4%;
+}
+@media (max-width: 992px) {
+  body main #ourclients #titretexte p {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    font-size: 1.5em;
+  }
+}
+body main #ourclients #containerourclients {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+@media (max-width: 375px) {
+  body main #ourclients #containerourclients {
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+  }
+}
+body main #ourclients #containerourclients #simplestar {
+  width: 15%;
+  text-align: center;
+  padding-bottom: 8%;
+}
+body main #ourclients #containerourclients #thelab {
+  width: 15%;
+  text-align: center;
+  padding-bottom: 8%;
+}
+body main #ourclients #containerourclients #eshleyjud {
+  width: 15%;
+  text-align: center;
+  padding-bottom: 8%;
+}
+body main #ourclients #containerourclients #timberstyle {
+  width: 15%;
+  text-align: center;
+  padding-bottom: 8%;
+}
+body main #contactus {
+  /*Sous section formulaire*/
+}
+body main #contactus #titretexte2 {
+  margin: auto;
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 5%;
+}
+@media (max-width: 375px) {
+  body main #contactus #titretexte2 {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (max-width: 992px) {
+  body main #contactus #titretexte2 {
+    height: auto;
+    width: 90%;
+    margin: auto;
+  }
+}
+body main #contactus #titretexte2 h2 {
+  width: 25%;
+  font-family: "Abel", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #FFDA00;
+}
+@media (max-width: 375px) {
+  body main #contactus #titretexte2 h2 {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+  }
+}
+body main #contactus #titretexte2 p {
+  width: 100%;
+  padding-bottom: 8%;
+  color: black;
+  font-family: "Abel", sans-serif;
+  font-size: 1em;
+}
+@media (max-width: 992px) {
+  body main #contactus #titretexte2 p {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    font-size: 1.5em;
+  }
+}
+body main #contactus #formulaire {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  background-color: #f2f2f2;
+  font-family: "Abel", sans-serif;
+  color: black;
+}
+@media (max-width: 375px) {
+  body main #contactus #formulaire {
+    flex-direction: column;
+    height: auto;
+    width: 95%;
+    margin: auto;
+  }
+}
+@media (max-width: 992px) {
+  body main #contactus #formulaire {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 4%;
+  }
+}
+body main #contactus #formulaire #soussectionformulaire {
+  width: 90%;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+@media (max-width: 992px) {
+  body main #contactus #formulaire #soussectionformulaire {
+    height: auto;
+    width: 85%;
+    margin: auto;
+  }
+}
+body main #contactus #formulaire #soussectionformulaire form {
+  font-family: "Abel", sans-serif;
+  font-size: 1.5em;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  body main #contactus #formulaire #soussectionformulaire form {
+    height: auto;
+    width: 100%;
+    margin: auto;
+  }
+}
+body main #contactus #formulaire #soussectionformulaire form #prenom {
+  font-family: "Abel", sans-serif;
+  width: 100%;
+  border-color: #FFDA00;
+  padding: 1%;
+  border-style: solid;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+body main #contactus #formulaire #soussectionformulaire form #nom {
+  font-family: "Abel", sans-serif;
+  width: 100%;
+  border-color: #FFDA00;
+  padding: 1%;
+  border-style: solid;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+body main #contactus #formulaire #soussectionformulaire form #objet {
+  font-family: "Abel", sans-serif;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-color: #FFDA00;
+  padding: 1%;
+  border-style: solid;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+body main #contactus #formulaire #soussectionformulaire form #message {
+  font-family: "Abel", sans-serif;
+  width: 100%;
+  border-color: #FFDA00;
+  padding: 1%;
+  border-style: solid;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+body main #contactus #formulaire #soussectionformulaire form button {
+  font-family: "Abel", sans-serif;
+  font-size: 0.8em;
+  background-color: #FFDA00;
+  color: white;
+  border: none;
+  border-radius: 2%;
+  border-radius: 5px;
+}
+@media (max-width: 992px) {
+  body main #contactus #formulaire #soussectionformulaire form button {
+    height: auto;
+    font-size: 1.2em;
+  }
+}
+body main #jaune {
+  width: 100%;
+  background-color: #FFDA00;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 375px) and (max-width: 992px) {
+  body main #jaune {
+    font-size: 0.7em;
+    text-align: center;
+  }
+}
+body main #jaune #containercoordonnees {
+  width: 80%;
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  display: flex;
+}
+@media (max-width: 375px) {
+  body main #jaune #containercoordonnees {
+    flex-direction: column;
+    height: auto;
+  }
+}
+@media (max-width: 992px) {
+  body main #jaune #containercoordonnees {
+    height: auto;
+    width: 95%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+body main #jaune #containercoordonnees #whats {
+  display: flex;
+  width: 33.33%;
+  align-items: center;
+}
+@media (max-width: 375px) {
+  body main #jaune #containercoordonnees #whats {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  body main #jaune #containercoordonnees #whats {
+    height: auto;
+    width: 33.33%;
+  }
+}
+body main #jaune #containercoordonnees #whats img {
+  width: 50px;
+  height: 50px;
+}
+body main #jaune #containercoordonnees #whats p {
+  font-family: "Abel", sans-serif;
+  color: black;
+}
+body main #jaune #containercoordonnees #mailfooter {
+  display: flex;
+  width: 33.33%;
+  align-items: center;
+}
+@media (max-width: 375px) {
+  body main #jaune #containercoordonnees #mailfooter {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  body main #jaune #containercoordonnees #mailfooter {
+    height: auto;
+    width: 33.33%;
+  }
+}
+body main #jaune #containercoordonnees #mailfooter img {
+  width: 50px;
+  height: 50px;
+}
+body main #jaune #containercoordonnees #mailfooter p {
+  font-family: "Abel", sans-serif;
+  color: black;
+}
+body main #jaune #containercoordonnees #globe {
+  display: flex;
+  width: 33.33%;
+  align-items: center;
+}
+@media (max-width: 375px) {
+  body main #jaune #containercoordonnees #globe {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  body main #jaune #containercoordonnees #globe {
+    height: auto;
+    width: 33.33%;
+  }
+}
+body main #jaune #containercoordonnees #globe img {
+  width: 50px;
+  height: 50px;
+}
+body main #jaune #containercoordonnees #globe p {
+  font-family: "Abel", sans-serif;
+  color: black;
+}
+body footer #bandeaunoir {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+@media (max-width: 375px) {
+  body footer #bandeaunoir {
+    flex-direction: column;
+    height: auto;
+  }
+}
+@media (max-width: 992px) {
+  body footer #bandeaunoir {
+    height: auto;
+    width: 100%;
+  }
+}
+body footer #footercontainer {
+  width: 90%;
+  margin: auto;
+}
+@media (max-width: 375px) {
+  body footer #footercontainer {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+}
+body footer #footercontainer #properties {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+@media (max-width: 375px) {
+  body footer #footercontainer #properties {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 992px) {
+  body footer #footercontainer #properties {
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  body footer #footercontainer #properties img {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (max-width: 992px) {
+  body footer #footercontainer #properties img {
+    height: auto;
+    width: 40%;
+    margin: auto;
+  }
+}
+@media (min-width: 375px) and (max-width: 992px) {
+  body footer #footercontainer #properties img {
+    width: 50%;
+  }
+}
+body footer #footercontainer #medias {
+  display: flex;
+  padding-top: 4%;
+  width: 15%;
+  margin: auto;
+  justify-content: space-between;
+}
+@media (max-width: 375px) {
+  body footer #footercontainer #medias {
+    width: 80%;
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
